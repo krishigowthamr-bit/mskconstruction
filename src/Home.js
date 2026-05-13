@@ -447,7 +447,7 @@ function Navbar() {
               {item.sub && (
                 <div className="nav-dd">
                   {item.sub.map(s => (
-                    <a key={s} onClick={() => navigate(item.path)}>{s}</a>
+                    <button key={s} onClick={() => navigate(item.path)}>{s}</button>
                   ))}
                 </div>
               )}

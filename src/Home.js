@@ -374,19 +374,19 @@ const PROJECTS = [
 ];
 
 const REVIEWS = [
-  { n:"Ashma Fathima",   t:"Their expertise and guidance through the process made the entire journey seamless and stress-free. JRM team communication was outstanding at every step." },
-  { n:"Muthu Thinesh",   t:"JRM Construction's expertise in construction, design and project management made our renovation project stress-free and successful." },
+  { n:"Ashma Fathima",   t:"Their expertise and guidance through the process made the entire journey seamless and stress-free. MSK team communication was outstanding at every step." },
+  { n:"Muthu Thinesh",   t:"MSK Construction's expertise in construction, design and project management made our renovation project stress-free and successful." },
   { n:"Magasidesai Desai",t:"Professional, courteous, and dedicated to delivering high-quality results. Best construction company in ECR!" },
-  { n:"Daisy",            t:"My villa has been constructed by JRM. Everyone on the team is personally invested in producing quality work. Great work, kudos!" },
-  { n:"Sivani Senthil",   t:"JRM Construction's commitment to excellence shines in every aspect of their work. Highly recommend for your Dream House!" },
-  { n:"Revathi Arun",     t:"I am delighted to recommend JRM Construction for their exceptional quality of construction and outstanding customer service." },
+  { n:"Daisy",            t:"My villa has been constructed by MSK. Everyone on the team is personally invested in producing quality work. Great work, kudos!" },
+  { n:"Sivani Senthil",   t:"MSK Construction's commitment to excellence shines in every aspect of their work. Highly recommend for your Dream House!" },
+  { n:"Revathi Arun",     t:"I am delighted to recommend MSK Construction for their exceptional quality of construction and outstanding customer service." },
 ];
 
 const FAQS = [
   { q:"What services do you offer?",           a:"We offer architecture, construction, interior design, and renovation services for residential and commercial projects in Chennai." },
   { q:"How long does it take to complete a project?", a:"A typical residential home takes 12–18 months from design to handover, depending on scope and complexity." },
   { q:"Can I get a free consultation?",        a:"Yes! We offer a free initial consultation to understand your requirements and provide a complete overview of our services." },
-  { q:"Do you handle both residential and commercial projects?", a:"Yes, JRM Construction handles luxury villas, independent homes, apartments, and commercial buildings across Chennai." },
+  { q:"Do you handle both residential and commercial projects?", a:"Yes, MSK Construction handles luxury villas, independent homes, apartments, and commercial buildings across Chennai." },
   { q:"Are your services available outside Chennai?", a:"Our primary operations are in Chennai, but we do undertake select projects in wider Tamil Nadu." },
   { q:"Do you offer turnkey solutions?",       a:"Yes, complete turnkey solutions from design through construction to final handover — one point of contact for everything." },
   { q:"What sets you apart?",                  a:"ISO 9001:2015 certification, Silicon India recognition, a project tracking app, and 15+ years of proven excellence." },
@@ -404,11 +404,11 @@ function Topbar() {
       <div className="tb-r">
         <a href="tel:+917708668707">📞 +91 77086 68707</a>
         <span className="tb-div">|</span>
-        <a href="mailto:enquiries@jrmconstruction.in">✉ enquiries@jrmconstruction.in</a>
+        <a href="mailto:enquiries@mskconstruction.in">✉ enquiries@mskconstruction.in</a>
         <span className="tb-div">|</span>
-        <a href="https://www.instagram.com/jrm__construction/" target="_blank" rel="noreferrer">Instagram</a>
-        <a href="https://www.youtube.com/@jrmconstruction" target="_blank" rel="noreferrer">YouTube</a>
-        <a href="https://in.linkedin.com/company/jrmconstruction" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com/msk__construction/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.youtube.com/@mskconstruction" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="https://in.linkedin.com/company/mskconstruction" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </div>
   );
@@ -427,7 +427,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="nav-logo" onClick={() => navigate("/")}>
-          JRM<span> Construction</span>
+          MSK<span> Construction</span>
         </div>
 
         <ul className="nav-links">
@@ -564,10 +564,10 @@ function Footer() {
       <div className="footer-inner">
         <div className="ft-grid">
           <div>
-            <div className="ft-logo">JRM<span> Construction</span></div>
-            <p className="ft-tag">JRM Construction delivers quality and innovative building solutions with integrity and excellence across Chennai.</p>
+            <div className="ft-logo">MSK<span> Construction</span></div>
+            <p className="ft-tag">MSK Construction delivers quality and innovative building solutions with integrity and excellence across Chennai.</p>
             <div className="ft-social">
-              {[{h:"https://www.facebook.com/people/JRM-Construction/100089640972724/",i:"f"},{h:"https://www.instagram.com/jrm__construction/",i:"📸"},{h:"https://in.linkedin.com/company/jrmconstruction",i:"in"},{h:"https://www.youtube.com/@jrmconstruction",i:"▶"}].map(s => (
+              {[{h:"https://www.facebook.com/people/MSK-Construction/100089640972724/",i:"f"},{h:"https://www.instagram.com/msk__construction/",i:"📸"},{h:"https://in.linkedin.com/company/mskconstruction",i:"in"},{h:"https://www.youtube.com/@mskconstruction",i:"▶"}].map(s => (
                 <a key={s.i} href={s.h} target="_blank" rel="noreferrer" className="soc-btn">{s.i}</a>
               ))}
             </div>
@@ -587,12 +587,12 @@ function Footer() {
           <div>
             <div className="ft-col-t">Contact Us</div>
             <div className="ft-cr"><span>📞</span><div><a href="tel:+917708668707">+91 77086 68707</a><br/><a href="tel:+917200094121">+91 7200094121</a></div></div>
-            <div className="ft-cr"><span>✉</span><a href="mailto:enquiries@jrmconstruction.in">enquiries@jrmconstruction.in</a></div>
+            <div className="ft-cr"><span>✉</span><a href="mailto:enquiries@mskconstruction.in">enquiries@mskconstruction.in</a></div>
             <div className="ft-cr"><span>📍</span><span>No 1A, 1st Floor, Adityaram Township, Phase 1, Sholinganallur, Chennai 600115</span></div>
           </div>
         </div>
         <div className="ft-btm">
-          <span>© 2010–2026 JRM Construction. All rights reserved.</span>
+          <span>© 2010–2026 MSK Construction. All rights reserved.</span>
           <span onClick={() => navigate("/privacy")} style={{ cursor:"pointer" }}>Privacy Policy</span>
         </div>
       </div>
@@ -616,7 +616,7 @@ function HomePage() {
             <h1 className="hero-h1 fu fu1">
               Building Your <em>Dream Home</em><br/>in Chennai with Unmatched Excellence
             </h1>
-            <p className="hero-p fu fu2">JRM Construction — trusted builders in Chennai delivering expert architecture, interior design, and renovation services.</p>
+            <p className="hero-p fu fu2">MSK Construction — trusted builders in Chennai delivering expert architecture, interior design, and renovation services.</p>
             <div className="hero-btns fu fu3">
               <button className="btn btn-g" onClick={() => navigate("/contact")}>Contact Us for a Free Consultation</button>
               <button className="btn btn-ow" onClick={() => navigate("/projects")}>View Our Projects</button>
@@ -649,7 +649,7 @@ function HomePage() {
           <div>
             <span className="tag">About Us</span>
             <h2 className="h2">15+ Years of Building Excellence in Chennai</h2>
-            <p className="sub">At JRM Construction, we bring over 15 years of experience crafting luxury homes and villas in Chennai. Our ISO 9001:2015 certification and recognition as one of the Top 10 Architecture Firms in Chennai 2024 stand as testament to our unwavering commitment to excellence.</p>
+            <p className="sub">At MSK Construction, we bring over 15 years of experience crafting luxury homes and villas in Chennai. Our ISO 9001:2015 certification and recognition as one of the Top 10 Architecture Firms in Chennai 2024 stand as testament to our unwavering commitment to excellence.</p>
             <div className="chk-list">
               {["15+ years of excellence in turnkey construction.","Dedicated architects and personalised project management.","ISO-certified for unmatched quality assurance."].map(c => (
                 <div className="chk" key={c}><div className="chk-ic">✓</div>{c}</div>
@@ -709,7 +709,7 @@ function HomePage() {
       {/* WHY US */}
       <div className="why-wrap">
         <div className="sec">
-          <div className="tc"><span className="tag">Why Choose Us</span><h2 className="h2">Why JRM Construction Stands Apart</h2><p className="sub tc">Choosing JRM Construction means choosing excellence in every dimension.</p></div>
+          <div className="tc"><span className="tag">Why Choose Us</span><h2 className="h2">Why MSK Construction Stands Apart</h2><p className="sub tc">Choosing MSK Construction means choosing excellence in every dimension.</p></div>
           <div className="why-grid">
             {WHY.map(w => (
               <div className="why-card" key={w.t}>
@@ -802,7 +802,7 @@ function HomePage() {
             <p className="ct-sub">Get a free consultation with our experts and start your project today.</p>
             {[
               { ic:"📞",lbl:"Phone",    val:<><a href="tel:+917708668707">+91 77086 68707</a><br/><a href="tel:+917200094121">+91 7200094121</a></> },
-              { ic:"✉", lbl:"Email",   val:<a href="mailto:enquiries@jrmconstruction.in">enquiries@jrmconstruction.in</a> },
+              { ic:"✉", lbl:"Email",   val:<a href="mailto:enquiries@mskconstruction.in">enquiries@mskconstruction.in</a> },
               { ic:"📍",lbl:"Address", val:"No 1A, 1st Floor, Adityaram Township, Sholinganallur, Chennai 600115" },
               { ic:"⏰",lbl:"Hours",   val:"Mon–Sat: 9 AM – 7 PM · Sun: By Appointment" },
             ].map(d => (
@@ -832,7 +832,7 @@ function AboutPage() {
           <div>
             <span className="tag">Our Story</span>
             <h2 className="h2">Building Dreams Since 2010</h2>
-            <p className="sub" style={{ marginBottom:16 }}>Founded in 2010, JRM Construction began as a small construction firm with a vision to transform Chennai's residential landscape. Over 15 years, we've grown into a full-service construction company, delivering hundreds of luxury homes, villas, and commercial spaces.</p>
+            <p className="sub" style={{ marginBottom:16 }}>Founded in 2010, MSK Construction began as a small construction firm with a vision to transform Chennai's residential landscape. Over 15 years, we've grown into a full-service construction company, delivering hundreds of luxury homes, villas, and commercial spaces.</p>
             <p className="sub">Our ISO 9001:2015 certification and Silicon India recognition affirm our commitment to quality, transparency, and excellence in every project.</p>
             <div className="chk-list" style={{ marginTop:24 }}>
               {["500+ projects completed across Chennai","Team of 50+ dedicated architects and engineers","ISO 9001:2015 certified quality processes","Vastu-compliant design expertise"].map(c => (
@@ -945,7 +945,7 @@ function ContactPage() {
             <p className="ct-sub">Fill out the form and our team will get back to you within 24 hours with a personalised plan for your project.</p>
             {[
               { ic:"📞",lbl:"Phone",    val:<><a href="tel:+917708668707">+91 77086 68707</a><br/><a href="tel:+917200094121">+91 7200094121</a></> },
-              { ic:"✉", lbl:"Email",   val:<a href="mailto:enquiries@jrmconstruction.in">enquiries@jrmconstruction.in</a> },
+              { ic:"✉", lbl:"Email",   val:<a href="mailto:enquiries@mskconstruction.in">enquiries@mskconstruction.in</a> },
               { ic:"📍",lbl:"Office",  val:"No 1A, 1st Floor, Adityaram Township, Phase 1, Sholinganallur, Chennai 600115" },
               { ic:"⏰",lbl:"Hours",   val:"Mon–Sat: 9 AM – 7 PM · Sun: By Appointment" },
             ].map(d => (
@@ -1051,10 +1051,10 @@ function AppShell() {
           <Route path="/services/:slug"  element={<ServicesPage/>} />
           <Route path="/contact"         element={<ContactPage/>} />
           <Route path="/packages"        element={<PackagesPage/>} />
-          <Route path="/resources"       element={<Placeholder title="Resources" sub="Guides, FAQs, and downloadable brochures from JRM Construction." />} />
-          <Route path="/career"          element={<Placeholder title="Careers at JRM Construction" sub="Join our growing team and build something extraordinary." />} />
-          <Route path="/vendor"          element={<Placeholder title="Vendor Registration" sub="Register as a trusted vendor partner with JRM Construction." />} />
-          <Route path="/privacy"         element={<Placeholder title="Privacy Policy" sub="How JRM Construction handles your data and privacy." />} />
+          <Route path="/resources"       element={<Placeholder title="Resources" sub="Guides, FAQs, and downloadable brochures from MSK Construction." />} />
+          <Route path="/career"          element={<Placeholder title="Careers at MSK Construction" sub="Join our growing team and build something extraordinary." />} />
+          <Route path="/vendor"          element={<Placeholder title="Vendor Registration" sub="Register as a trusted vendor partner with MSK Construction." />} />
+          <Route path="/privacy"         element={<Placeholder title="Privacy Policy" sub="How MSK Construction handles your data and privacy." />} />
           <Route path="*"                element={<NotFound/>} />
         </Routes>
       </main>
